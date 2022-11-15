@@ -4,6 +4,13 @@ body {
   box-sizing: border-box;
   background: rgb(34, 34, 34);
 }
+h1{
+  font-size: 1.6rem;
+}
+p{
+  font-size: 1.2rem;
+  margin: 0 1.2em;
+}
 .app {
   display: flex;
   justify-content: center;
@@ -11,7 +18,8 @@ body {
   height: 100vh;
 }
 .cont {
-  min-width: 60rem;
+  width: 80%;
+  max-width: 600px;
   min-height: 40rem;
   background-color: green;
   padding: 1.2em;
@@ -22,10 +30,14 @@ body {
   align-items: center;
   text-align: center;
 }
+.cont .qu img{
+  width: 60%;
+  max-width: 300px;
+}
 .cont .qu button {
   background: rgb(226, 226, 226);
-  margin: 1em 0 2em 0;
-  padding: 1em 2em;
+  margin: 1.4em 0 1.4em 0;
+  padding: 1em 1.8em;
   font-size: 1rem;
   border-radius: 5px;
 
