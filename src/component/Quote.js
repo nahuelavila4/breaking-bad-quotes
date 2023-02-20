@@ -2,7 +2,7 @@ import React from "react";
 
 const Quote = ({quote}) => {
   return (
-    <div>
+    <div className="quote-style">
       <p>
         {quote.text}
         <br></br>
